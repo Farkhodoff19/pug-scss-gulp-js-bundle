@@ -1,0 +1,111 @@
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.purple {
+  color: #ff2e65;
+}
+
+.black {
+  color: #0e0c0d;
+}
+
+.gray {
+  color: #686466;
+}
+.avatar {
+  color: #9d9d9b;
+}
+.no-active {
+  color: #696f7a;
+}
+
+.price {
+  color: #231f20;
+}
+
+.white {
+  color: #e3ecf5;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: $price;
+  &--medium {
+    font-size: 38px;
+    color: $purple;
+    margin-bottom: 20px;
+  }
+  &--large {
+    font-size: 44px;
+    margin-bottom: 47px;
+  }
+}
+
+.mt-180 {
+  margin-top: 180px;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 4px 23px;
+  background-color: #ff2e65;
+  color: #fff;
+  line-height: 32px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  transition: 0.3s ease;
+  &:hover {
+    background: darken($purple, 20%);
+  }
+}
+
+.m {
+  &l-a {
+    margin-left: auto;
+  }
+  &mr-a {
+    margin-right: auto;
+  }
+  &mt-a {
+    margin-top: auto;
+  }
+  &mb-a {
+    margin-bottom: auto;
+  }
+}

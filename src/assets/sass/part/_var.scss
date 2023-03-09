@@ -1,0 +1,12 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin fb($w) {
+  flex-basis: $w;
+  width: $w;
+  max-width: $w;
+  padding: 8px 15px;
+}

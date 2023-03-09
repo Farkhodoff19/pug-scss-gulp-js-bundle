@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
